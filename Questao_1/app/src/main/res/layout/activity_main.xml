@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@color/CorTitulo"
+        android:textColor="@color/CorLetras"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/Titulo" />
+
+    <TextView
+        android:id="@+id/textSubtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/CorSubtitulo"
+        android:textColor="@color/CorPreto"
+        android:textAlignment="center"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/Subtitulo" />
+
+    <CheckBox
+        android:id="@+id/cbArroz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/CorAlimentos"
+        android:textColor="@color/CorPreto"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/Alimento1" />
+
+    <CheckBox
+        android:id="@+id/cbLeite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/CorAlimentos"
+        android:textColor="@color/CorPreto"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/Alimento2" />
+
+    <CheckBox
+        android:id="@+id/cbCarne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/CorAlimentos"
+        android:textColor="@color/CorPreto"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/Alimento3" />
+
+    <CheckBox
+        android:id="@+id/cbFeijao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/CorAlimentos"
+        android:textColor="@color/CorPreto" android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/Alimento4" />
+
+    <CheckBox
+        android:id="@+id/cbCoca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:background="@color/CorAlimentos"
+        android:textColor="@color/CorPreto"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:text="@string/Alimento5" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:background="@color/CorSubtitulo"
+        android:textColor="@color/CorPreto"
+        android:fontFamily="monospace"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:text="@string/Resultado" />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="BtnTotal"
+        android:backgroundTint="@color/CorTitulo"
+        android:fontFamily="monospace"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+        android:text="@string/Button"
+        android:textColor="@color/CorLetras"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>

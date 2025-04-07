@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- STRING DO APP -->
+<string name="Titulo">Sistema da Compras</string>
+<string name="Subtitulo">Escolha seu produto</string>
+<string name="Button">Total da Compra</string>
+<string name="Resultado">Resultado</string>
+<string name="Alimento1">Arroz 1Kg (R$ 2,69)</string>
+<string name="Alimento2">Leite longa vida (R$ 2,70)</string>
+<string name="Alimento3">Carne Friboi (R$ 16,70)</string>
+<string name="Alimento4">Feijão Carioquinha 1Kg (R$ 3,38)</string>
+<string name="Alimento5">Refrigerante Coca-Cola 2 Litros (R$ 3,00)</string>
+
+    <!-- CORES DO APP -->
+    <color name="CorTitulo">#941f1f</color>
+    <color name="CorSubtitulo">#a4a4a4</color>
+    <color name="CorAlimentos">#bfbfbf</color>
+    <color name="CorPreto">#000000</color>
+    <color name="CorLetras">#FFFFFF</color>
+
+
+</resources>
