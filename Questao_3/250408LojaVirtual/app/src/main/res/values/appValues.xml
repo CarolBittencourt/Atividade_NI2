@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--String do app-->
+<string name="TituloT1">BEM VINDO!</string>
+<string name="ButtonT1">Página de cadastro</string>
+<string name="TituloT2">PÁGINA DE CADASTRO</string>
+<string name="SeuNomeT2">Seu nome aqui</string>
+<string name="ButtonT2">Concluir Cadastro</string>
+<string name="NomeUserT3">----</string>
+<string name="TituloT3">Obrigada pelo se cadastro! Ficamos felizes em ter você conosco!</string>
+<string name="ButtonT3">Voltar para tela inicial</string>
+
+    <!--Colors do app-->
+<color name="Rosa">#d11174</color>
+<color name="RosaClaro">#fbc5d8</color>
+<color name="Turquesa">#00b9bd</color>
+<color name="Turquesa2">#00c9d2</color>
+<color name="Preto">#000000</color>
+<color name="Branco">#FFFFFF</color>
+
+
+
+
+
+</resources>
