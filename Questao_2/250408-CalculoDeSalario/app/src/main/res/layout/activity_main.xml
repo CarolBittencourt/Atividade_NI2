@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/VerdeBebe"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/Branco"
+        android:background="@color/VerdeEscuro"
+        android:text="@string/Titulo" />
+
+    <TextView
+        android:id="@+id/textSubtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/Branco"
+        android:background="@color/VerdeClaro"
+        android:text="@string/Subtitulo" />
+
+    <EditText
+        android:id="@+id/editSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/Preto"
+        android:background="@color/VerdeBebe"
+        android:hint="@string/Salario" />
+
+    <TextView
+        android:id="@+id/textPercentual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/Branco"
+        android:background="@color/VerdeClaro"
+        android:text="@string/Percentual" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/VerdeBebe"
+            android:fontFamily="monospace"
+            android:text="@string/Porcentagem1"
+            android:textColor="@color/Preto"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/VerdeBebe"
+            android:fontFamily="monospace"
+            android:text="@string/Porcentagem2"
+            android:textColor="@color/Preto"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/VerdeBebe"
+            android:fontFamily="monospace"
+            android:text="@string/Porcentagem3"
+            android:textColor="@color/Preto"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/VerdeEscuro"
+        android:fontFamily="monospace"
+        android:onClick="enviar"
+        android:insetLeft="40dp"
+        android:insetRight="40dp"
+        android:text="@string/Btn"
+        android:textAlignment="center"
+        android:textColor="@color/Branco"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/Branco"
+        android:background="@color/VerdeClaro"
+        android:text="@string/Resultado" />
+</LinearLayout>
