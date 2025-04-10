@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Bege"
+    android:orientation="vertical"
+    tools:context=".MainActivity2" >
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/TituloT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="@color/VermelhoEscuro"
+        android:textColor="@color/Branco"
+        android:text="@string/TituloT2" />
+
+    <CheckBox
+        android:id="@+id/cb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb1" />
+
+    <CheckBox
+        android:id="@+id/cb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb2" />
+
+    <CheckBox
+        android:id="@+id/cb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb3" />
+
+    <CheckBox
+        android:id="@+id/cb4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb4" />
+
+    <CheckBox
+        android:id="@+id/cb5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb5" />
+
+    <CheckBox
+        android:id="@+id/cb6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb6" />
+
+    <TextView
+        android:id="@+id/SubtituloT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="@color/VermelhoEscuro"
+        android:textColor="@color/Branco"
+        android:text="@string/SubtituloT2" />
+
+    <EditText
+        android:id="@+id/CampoNomeT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="15sp"
+        android:hint="@string/CampoNome" />
+
+    <Button
+        android:id="@+id/ButtonT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/VermelhoEscuro"
+        android:insetLeft="50dp"
+        android:insetRight="50dp"
+        android:textSize="25sp"
+        android:text="@string/ButtonT2"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--String T1-->
+    <string name="Button1">FAÇA O SEU PEDIDO!</string>
+
+    <!--String T2-->
+    <string name="TituloT2">ESCOLHA OS ITEM ABAIXO:</string>
+    <string name="cb1">X-Burguer</string>
+    <string name="cb2">X-Salada</string>
+    <string name="cb3">Cheddar</string>
+    <string name="cb4">Batata Frita</string>
+    <string name="cb5">Coca-Cola</string>
+    <string name="cb6">Guaraná</string>
+    <string name="SubtituloT2">ESCREVA SEU NOME ABAIXO:</string>
+    <string name="CampoNome">SEU NOME AQUI</string>
+    <string name="ButtonT2">CONCLUIR PEDIDO</string>
+
+    <!--String T3-->
+    <string name="TituloT3">PEDIDO CONCLUÍDO!</string>
+    <string name="TextNome">----</string>
+    <string name="TextPedido">----</string>
+    <string name="ButtonT3">VOLTAR PARA INÍCIO</string>
+
+
+
+
+
+    <color name="Preto">#000000</color>
+    <color name="Branco">#FFFFFF</color>
+    <color name="CinzaEscuro">#262525</color>
+    <color name="CinzaClaro">#525252</color>
+    <color name="Bege">#e6ddbc</color>
+    <color name="VermelhoClaro">#822626</color>
+    <color name="VermelhoEscuro">#690202</color>
+
+
+</resources>
