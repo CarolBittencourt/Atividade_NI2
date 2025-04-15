@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--String T1-->
+    <string name="ButtonT1">REALIZAR PEDIDO!</string>
+    <!--String T2-->
+    <string name="TituloT2">ESCOLHA O SABOR DA SUA PIZZA:</string>
+    <string name="SaborDePizza1">Calabresa R$ 30</string>
+    <string name="SaborDePizza2">Marguerita R$ 35</string>
+    <string name="SaborDePizza3">Portuguesa R$ 40</string>
+    <string name="ButtonT2">TAMANHOS E PAGAMENTO</string>
+    <!--String T3-->
+    <string name="TituloT3">ESCOLHA O TAMANHO DA SUA PIZZA:</string>
+    <string name="Tamanho1">Grande R$ 20</string>
+    <string name="Tamanho2">Média R$ 15</string>
+    <string name="Tamanho3">Pequena R$ 10</string>
+    <string name="SubtituloT3">ESCOLHA A FORMA DE PAGAMENTO</string>
+    <string name="FormaDePagamento1">Dinheiro</string>
+    <string name="FormaDePagamento2">Cartão</string>
+    <string name="ButtonT3">FINALIZAR PEDIDO</string>
+    <!--String T4-->
+    <string name="AgradecimentoPedido">Obrigado pelo seu pedido!</string>
+    <string name="ResumoPedido">----</string>
+    <string name="ValorPedido">----</string>
+    <string name="ButtonT4">NOVO PEDIDO</string>
+    <!--Colors app-->
+    <color name="VerdeEscuro">#0b684e</color>
+    <color name="VerdeClaro">#b2d8b0</color>
+    <color name="Vermelho">#a3120a</color>
+    <color name="Branco">#FFFFFF</color>
+    <color name="Preto">#000000</color>
+
+
+
+
+
+
+</resources>
